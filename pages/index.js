@@ -1,7 +1,7 @@
 // pages/index.js
 import { useState, useEffect } from 'react';
 import { supabase } from '../utils/supabaseClient'; // Make sure this path is correct
-import Navbar from '../components/vessel/Navbar'; // Corrected path to Navbar
+import Navbar from '../components/Vessel/Navbar'; // Corrected path to Navbar
 import Link from 'next/link'; // Import Link component
 import { useRouter } from 'next/router'; // Import useRouter for navigation
 
